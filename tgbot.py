@@ -8,8 +8,8 @@ load_dotenv()
 # Your API ID and Hash
 api_id = os.getenv('API_ID')
 api_hash = os.getenv('API_HASH')
-source_channel = 'test2chaos'  # Source channel username (without @)
-destination_channel = 'test1chaos'  # Destination channel username (without @)
+source_channel = 'hs_cryptonews'  # Source channel username (without @)
+destination_channel = 'cryptonationama'  # Destination channel username (without @)
 
 # Create the client and connect
 client = TelegramClient('session_name', api_id, api_hash)
